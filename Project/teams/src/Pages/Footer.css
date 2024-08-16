@@ -1,0 +1,15 @@
+/* Footer.css */
+
+.footer {
+    background-color: #6EACDA;
+    color: #6EACDA;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+  
+  }
+
+  

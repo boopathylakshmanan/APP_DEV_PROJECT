@@ -1,0 +1,67 @@
+/* FileSharing.css */
+.file-sharing-container {
+    padding: 20px;
+  }
+  
+  .upload-section {
+    margin-bottom: 20px;
+  }
+  
+  .upload-section input[type="file"] {
+    margin-right: 10px;
+  }
+  
+  .upload-section button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .upload-section button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .file-list-section {
+    margin-top: 20px;
+  }
+  
+  .file-list-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .file-list-section table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .file-list-section th, .file-list-section td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .file-list-section th {
+    background-color: #f2f2f2;
+  }
+  
+  .file-list-section td button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .file-list-section td button:first-child {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .file-list-section td button:last-child {
+    background-color: #dc3545;
+    color: white;
+  }

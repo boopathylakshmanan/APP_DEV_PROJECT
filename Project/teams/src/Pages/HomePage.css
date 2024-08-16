@@ -1,0 +1,93 @@
+/* HomePage.css */
+
+.container {
+  /* background-image: url('https://img.freepik.com/free-photo/work-team-digital-art_23-2151492155.jpg?t=st=1722917937~exp=1722921537~hmac=a21d52c32db40e4e08ecad662e297137487503456da365faf27641a8da953f8d&w=1800'); */
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 0;
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  display: flex;
+  flex-direction: column;
+font-family: 'Poppins';}
+
+.hero-section {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.feature-card {
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.gymworkout {
+    
+  width: 100%;
+  height: 70vh;
+  background:url('https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?t=st=1723019166~exp=1723022766~hmac=491019772a74eda4571c51c69701f279a0142e26742bece79d5c9d3a5fe83f93&w=1800');
+  align-content: center;
+  text-align: center;
+  background-size: 1600px;
+  background-repeat: no-repeat;
+}
+.home {
+  display: flex;
+  padding: 40px 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  color: rgb(193, 76, 191);
+  font-size: 4vh;
+  margin-top: 4vh;
+  text-align: center;
+}
+p {
+  padding: 30px;
+  margin-top: 4vh;
+  font-size: 4vh;
+  color: rgb(78, 74, 74);
+  font-weight: 600;
+}
+.textcontainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgcontainer {
+  flex: 1;
+}
+
+.button {
+  background-color: rgb(209, 118, 209);
+  /* background-color: #977df8; */
+  border: none;
+  width: max-content;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1vw;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.button a {
+  color: #ffffff;
+}
+.button:hover{
+  background-color: rgb(224, 44, 224);
+
+}
+

@@ -1,0 +1,42 @@
+/* src/pages/ProjectManagement.css */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #28a745;
+    --danger-color: #dc3545;
+    --background-color: #f8f9fa;
+    --border-radius: 8px;
+    --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .project-card {
+    padding: 20px;
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .project-card.completed {
+    border-left: 5px solid var(--secondary-color);
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .project-actions .MuiIconButton-root {
+    margin-left: 10px;
+  }

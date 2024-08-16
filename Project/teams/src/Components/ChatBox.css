@@ -1,0 +1,53 @@
+/* ChatBox.css */
+
+.chatbox-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .chatbox-header {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .chatbox-body {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .chat-message {
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #fff;
+    max-width: 70%;
+    align-self: flex-start;
+  }
+  
+  .chatbox-footer {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-top: 1px solid #ddd;
+    background-color: #f5f5f5;
+  }
+  
+  .chatbox-footer .MuiIconButton-root {
+    margin-right: 0.5rem;
+  }
+  
+  .chatbox-footer .MuiTextField-root {
+    flex: 1;
+  }
+  
